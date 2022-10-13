@@ -1,0 +1,16 @@
+def leiaInt(msg):
+    ok = False
+    valor = 0
+    while True:
+        n = str(input(msg)).strip()
+        if n.isnumeric():
+            valor = int(n)
+            ok = True
+        else:
+            print('\033[31mERRO! Digite um número (ex:1,2,3...)\033[m')
+        if ok:
+            break
+    return valor
+
+n = leiaInt('Digite um número:')
+print(f'Você digitou o número {n}.')

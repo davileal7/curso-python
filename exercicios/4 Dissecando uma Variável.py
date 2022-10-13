@@ -1,0 +1,8 @@
+n = input('Digite algo: ')
+print('É alfabético?', n.isalpha())
+print('É um número?', n.isnumeric())
+print(f'Digitou só espaço? {n.isspace()}')
+print(f'A primeira letra é minúscula? {n.islower()}')
+print(f'Palavra toda maiúscula! {n.upper()}')
+print(f'Palavra sempre com a primeira letra em maiúscula. {n.title()}')
+print(f'É capitalizada? (tem letras maiúsculo e minúsculo juntas) {n.istitle()}')
