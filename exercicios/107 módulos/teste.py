@@ -1,6 +1,7 @@
 import moeda
 
-p = float(input('Digite o preço: R$'))
-print(f'A metade de R$ {p} é {moeda.metade(p)}')
-print(f'O dobro de R$ {p} é R${moeda.dobro(p)}')
-print(f'Aumentando 10%, temos R$ {moeda.aumentar(p,10)}')
+valor = float(input('Digite o valor: R$'))
+print(f'A metade de R$ {valor} é R$ {moeda.metade(valor)}')
+print(f'O dobro de R$ {valor} é R$ {moeda.dobro(valor)}')
+print(f'Aumentando 10%, temos R$ {moeda.aumentar(valor, 50)}')
+print(f'Com desconto de 25%, temos R$ {moeda.diminuir(valor, 25)}')

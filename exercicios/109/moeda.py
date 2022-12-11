@@ -1,6 +1,5 @@
 def aumentar(preço=0, taxa=0, formato = False):
     '''
-
     :param preço:
     :param taxa:
     :param formato:

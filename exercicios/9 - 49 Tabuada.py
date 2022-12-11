@@ -1,8 +1,7 @@
 num = int(input(">>> Qual tabuada? "))
-print("-"*20)
-for t in range(1,11):
-       print("\033[34m{} x {} = {}\033[m".format(num,t,num*t))
-print("-" *20)
+for tabuada in range(1, 11):
+       print(f"{num} x {tabuada} =\033[33m{num*tabuada}\033[m")
+
 
 #print ("{} x {} = {}".format(num,2,num*2))
 #print ("{} x {} = {}".format(num,3,num*3))

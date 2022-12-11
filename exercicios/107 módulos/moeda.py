@@ -1,9 +1,9 @@
-def aumentar(preço, taxa):
-    r = preço + (preço * taxa/100)
+def aumentar(preço, juros):
+    r = preço + (preço * juros/100)
     return r
 
-def diminuir(preço, taxa):
-    r = preço - (preço * taxa/100)
+def diminuir(preço, desconto):
+    r = preço - (preço * desconto/100)
     return r
 
 def dobro(preço):
