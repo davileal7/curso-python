@@ -18,6 +18,6 @@ while True:
     if evento == "Pegar Cotação":
         codigo_cotacao = valores["nome_cotacao"]
         cotacao = pegar_cotacoes(codigo_cotacao)
-        janela["texto_cotacao"].update(f"A cotação do {codigo_cotacao} é de R${cotacao}")
+        janela["texto_cotacao"].update(f"A cotação do {codigo_cotacao} é de {cotacao}")
 
 janela.close()

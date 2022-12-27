@@ -8,21 +8,21 @@ def janela_login():
         [sg.Input()],
         [sg.Button('Continuar')]
     ]
-    return sg.Window('Login', layout=layout,finalize=True)
+    return sg.Window('Login', layout=layout, finalize=True)
 
 def janela_pedido():
     sg.theme('Reddit')
     layout = [
         [sg.Text('Fazer Pedido')],
-        [sg.Checkbox('Pizza Calabresa', key='pizza1' ),sg.Checkbox('Pizza Bacon',key='pizza2')],
+        [sg.Checkbox('Pizza Calabresa', key='pizza1' ), sg.Checkbox('Pizza Bacon', key='pizza2')],
         [sg.Button('Voltar'), sg.Button('Fazer Pedido')]
     ]
-    return  sg.Window('Montar Pedido',layout=layout,finalize=True)
+    return  sg.Window('Montar Pedido', layout=layout, finalize=True)
 
 #Criar as janelas iniciais
-janela1,janela2 = janela_login(), None
+janela1, janela2 = janela_login(), None
 while True:
-    window,event,values = sg.read_all_windows()
+    window, event, values = sg.read_all_windows()
     #Fechar Janela
     if window == janela1 and event == sg.WINDOW_CLOSED:
         break
