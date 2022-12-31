@@ -7,4 +7,4 @@ print(lista)
 #com argumento remove índice específico
 print(lista[1])
 lista.pop(2)
-print(lista)
+print(lista,f'removi o 300')

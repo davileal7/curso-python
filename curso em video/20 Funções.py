@@ -21,9 +21,9 @@ título("Oi, Mundo!")      # (txt)
 
 
 def soma(a, b):
-    s = a + b
-    print(s)
-    print(f"A soma de {a} + {b} é = {s}")
+    total = a + b
+    print(total)
+    print(f"A soma de {a} + {b} é = {total}")
 # Teste 3 - Programa Principal
 soma(2, 10)  # a,b
 soma(5, 2)  # a,b

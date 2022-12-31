@@ -1,7 +1,7 @@
 from random import randint
 
 def sorteia(lista):
-    print('Sorteando 5 valores da lista:',end=" ")
+    print('Sorteando 5 valores de 1 até 10:',end=" ")
     for c in range(0,5):
         n = randint(1,10)
         lista.append(n)

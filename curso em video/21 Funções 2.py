@@ -10,12 +10,12 @@ def contador(i,f,p):
     :param p: contagem por número
     :return: sem retorno
     """
-    c = 1
+    c = i
     while c <= f:
         print(f'{c}', end=" ")
         c += p
     print("FIM")
-contador(0,10,3)
+contador(2,10,2)
 help(contador)
 
 #Parametros Opcinonais

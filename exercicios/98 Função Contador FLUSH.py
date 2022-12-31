@@ -23,7 +23,7 @@ def contador(i,f,p):
             cont -= p
         print()
 #Programa Principal
-contador(1,10,1)
+contador(1,10,1) #inicio,fim,passo
 contador(10,0,2)
 print("="*20)
 print("Agora é sua vez de personalizar a contagem!")
