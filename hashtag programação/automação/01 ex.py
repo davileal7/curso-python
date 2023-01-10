@@ -1,8 +1,9 @@
 from playwright.sync_api import sync_playwright
 import time
 
+#acessa google tradutor
 with sync_playwright() as p:
-    browser = p.chromium.launch(headless=False)
+    browser = p.chromium.launch(headless=False) #headless (não mostra o processo)
     page = browser.new_page()
     page.goto("https://translate.google.com.br/?sl=pt&tl=en&text=Obrigado&op=translate&hl=pt-BR")
     time.sleep(2)
