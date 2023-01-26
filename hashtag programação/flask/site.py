@@ -23,3 +23,7 @@ if __name__ == "__main__":
 
 
     # servidor do heroku
+    #servidor precisa saber o que vc tem instalado no flask
+
+
+requi
