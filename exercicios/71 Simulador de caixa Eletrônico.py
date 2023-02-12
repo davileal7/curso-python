@@ -1,7 +1,7 @@
 print("=" *40)
 print("ITAÚ BANK")
 print("=" *40)
-valor = int(input("Qual o valor que você quer sacar? R$"))
+valor = int(input("Qual o valor que você quer sacar? R$ "))
 total = valor
 ced = 50
 totced = 0

@@ -7,7 +7,7 @@ app = Flask(__name__) #sempre para iniciar o site
 
 @app.route("/") #decorator atribuir uma nova funcionalidade para o próximo código
 def homepage():
-    return  render_template("home_page.html")
+    return render_template("home_page.html")
 
 @app.route('/contatos')
 def contatos():
@@ -26,4 +26,3 @@ if __name__ == "__main__":
     #servidor precisa saber o que vc tem instalado no flask
 
 
-requi
