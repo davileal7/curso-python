@@ -8,7 +8,6 @@ class Caneca:
         self.status = 'Cheia'
         self.preço = 29.90   # novo
 
-
     def beber(self):
         self.status = 'Vazia'
         return f'É da {self.tamanho} que eu estou bebendo '

@@ -3,7 +3,7 @@
 class Caneca:
     Formato = 'Alça lateral'
 
-    def __init__(self,nome,tamanho,cor):
+    def __init__(self, nome, tamanho, cor):
         self.nome = nome
         self.tamanho = tamanho
         self.cor = cor
@@ -20,25 +20,25 @@ class Caneca:
 class Canecalondrina(Caneca):
     def __init__(self):
         super().__init__('nome','tamanho','cor')
-        self.bebida = 'Chá'  # novo
+        self.bebida = 'Chá'  #Polimorfismo
 
     def extras(self):
         print('Como brinde, ganhou uma colher!')
 
     def beber(self):
         self.status = 'Vazia'
-        return 'Tá na hora do chá'  # novo
+        return 'Tá na hora do chá'  #Polimorfismo
 
 class CanecadoBatman(Caneca):
     def __init__(self):
         super().__init__('nome','Não muito grande','Preto')
-        self.bebida = 'café'   #novo
+        self.bebida = 'café'   #Polimorfismo
 
     def som(self):
         print('I am Batman!!!')
 
     def beber(self):
-        return super().beber() + f'{self.bebida}'  #novo
+        return super().beber() + f'{self.bebida}'  #Polimorfismo
 
 caneca_londres = Canecalondrina()
 caneca_teste = Caneca('Teste','Menor de todas', 'Branca')

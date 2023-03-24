@@ -3,7 +3,7 @@
 
 # 1 Abstração
 class Caneca:
-    def __init__(self,tamanho,cor):
+    def __init__(self, tamanho, cor):
         self.tamanho = tamanho
         self.cor = cor
         self.status = 'Cheia'
@@ -25,3 +25,13 @@ caneca2.encher()
 
 print(caneca1.status)
 print(caneca2.status)
+
+
+class Carro:
+    def __init__(self, nome, cor):
+        self.nome = nome
+        self.cor = cor
+
+modelo = Carro("Lancer", "Azul")
+
+print(modelo.nome)
