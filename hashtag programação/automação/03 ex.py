@@ -15,4 +15,3 @@ with sync_playwright() as p:
     pagina.locator('xpath= //*[@id="header-mainsearch"]/button[2]/img').click()
     time.sleep(20)
 
-    #// *[ @ id = "campanha-del-1"]
